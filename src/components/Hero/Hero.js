@@ -7,19 +7,20 @@ export const Hero = () => {
   return (
     <div className='hero'>
     <div className='hero-left'>
-     <h2 style={{marginBottom:'50px' , marginTop:'-100px'}} > NEW ARRIVALS ONLY</h2>
+     <h2> NEW ARRIVALS ONLY</h2>
      <div>
      <div className='hero-hand-icon'>
-        <p  style={{fontSize:'40px',marginTop:'-10px', }}>New</p>
-         <img  style={{fontSize:'-10Opx '}} src={hand_icon} alt=""  />
-        <p  >Collections</p>
-        <p  >for everyone</p>
-     </div> 
+        <p>New</p>
+         <img  src={hand_icon} alt=""  />
+         </div>
+        <p>Collections</p>
+        <p>for everyone</p>
+      </div>
        <div className='hero-latest-btn'>
         <div>Latest Collection</div>
         <img src={arrow_icon} alt=''/>
        </div>
-     </div>
+     
     </div>
     <div className='hero-right'>
     <img src={hero_image} alt=''/>
