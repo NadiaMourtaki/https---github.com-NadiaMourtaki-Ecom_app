@@ -1,7 +1,7 @@
 import React from 'react' 
 import  './Pop.css';
 import data_product from '../assets/data';
-import Item from '../item/item';
+import Item from '../Item/Item';
 const Pop = () =>{
  return(
   <div className='popular'>
